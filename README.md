@@ -39,10 +39,13 @@ Write tests for `SearchPage` and `SearchBar` using **Playwright** and the test u
 ## Running the tests
 
 ```
+# Run all end-to-end tests headlessly in the terminal
 npm run test:e2e
 
+# Open the Playwright UI mode for interactive test exploration and debugging
 npm run test:e2e:ui
 
+# Step through tests one action at a time with the Playwright Inspector
 npm run test:e2e:debug
 ```
 
