@@ -6,6 +6,12 @@ Welcome! This session is about writing automated tests for a real feature.
 
 ## Getting started
 
+## Installation
+
+```
+npm install
+```
+
 ## Running the local server
 
 ```
