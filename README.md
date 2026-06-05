@@ -4,6 +4,14 @@ Welcome! This session is about writing automated tests for a real feature.
 
 **You have 1 hour.** Read this brief carefully before writing any code (5 min), then get into it.
 
+## Getting started
+
+## Running the local server
+
+```
+npm run dev
+```
+
 ---
 
 ## The feature
