@@ -6,6 +6,18 @@ Welcome! This session is about writing automated tests for a real feature.
 
 ---
 
+## Getting started - Installation
+
+```
+npm install
+```
+
+## Running the local server
+
+```
+npm run dev
+```
+
 ## The feature
 
 GridBank is a video platform. The core feature you're testing today is search:
@@ -51,28 +63,10 @@ npm run test:e2e:debug
 
 ## Acceptance Criteria
 
-You will need to implement the following test cases:
+You will need to implement test for the following features:
 
-### SearchPage (6 tests)
-
-- [] Renders title and search input
-- [] Displays video results successful search
-- [] Shows loading indicator while searching
-- [] Shows error message when search fails
-- [] Shows no-results message on empty results
-- [] Clears error on subsequent successful search
-
-### SearchBar (9 tests)
-
-- [] Renders with default placeholder
-- [] Updates input value on typing
-- [] Calls onSearch with trimmed input on button click
-- [] Calls onSearch on Enter key press
-- [] Clear button clears the input
-- [] Clear button hidden when input is empty
-- [] Search button disabled when input is empty/whitespace-only
-- [] Input and buttons disabled while loading
-- [] Does not call onSearch with whitespace-only input
+- SearchPage
+- SearchBar
 
 ---
 
